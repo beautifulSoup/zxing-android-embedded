@@ -23,4 +23,20 @@
     <attr name="zxing_viewfinder_mask" format="color"/>
   </declare-styleable>
 
+
+  <declare-styleable name="zxing_WXViewfinderView">
+    <attr name="zxing_mask_color" format="reference|color"/>
+    <attr name="zxing_laser_color" format="reference|color"/>
+    <attr name="zxing_border_color" format="reference|color"/>
+    <attr name="zxing_corner_color" format="reference|color"/>
+    <attr name="zxing_border_width" format="dimension"/>
+    <attr name="zxing_corner_width" format="dimension"/>
+    <attr name="zxing_corner_length" format="dimension"/>
+    <attr name="zxing_status_text" format="reference|string"/>
+    <attr name="zxing_status_color" format="reference|color"/>
+    <attr name="zxing_status_size" format="dimension"/>
+    <attr name="zxing_status_padding" format="dimension"/>
+
+  </declare-styleable>
+
 </resources>

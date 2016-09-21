@@ -64,6 +64,10 @@ public class MainActivity extends ActionBarActivity {
         integrator.initiateScan();
     }
 
+    public void scanWithWX(View view){
+        new IntentIntegrator(this).setOrientationLocked(false).setCaptureActivity(WXCustomScannerActivity.class).initiateScan();
+    }
+
     public void scanWithTimeout(View view) {
         IntentIntegrator integrator = new IntentIntegrator(this);
         integrator.setTimeout(8000);
